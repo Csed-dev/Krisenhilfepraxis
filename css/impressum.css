@@ -21,3 +21,7 @@ body {
 #praxis {
     color: green;
 }
+
+a {
+    text-decoration: none;
+}
