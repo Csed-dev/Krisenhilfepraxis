@@ -1,0 +1,53 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background: #f5d9d5;
+}
+
+/* Navigationbar */
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+/* Collapse */
+.customButton {
+    background-color: #dec0de;
+    color: #fff;
+    padding: 6px 12px;
+    border: thin none;
+    border-radius: 10px 10px 0 0;
+}
+
+#borderRadius {
+    --bs-card-border-radius: 0 10px 10px 10px;
+    --bs-card-border-width: 0;
+}
+
+/* Others */
+.navbar.scrolled {
+    background-color: #dec0de;
+    transition: background-color 500ms;
+}
+
+@media (max-width: 1200px) {
+    .navbar {
+        background-color: #dec0de;
+    }
+}
