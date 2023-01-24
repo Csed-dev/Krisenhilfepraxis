@@ -3,7 +3,29 @@ body {
     color: #EA1C2C;
     font-weight: 100;
     font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+    margin: 0;
 }
+
+/* Navigationbar */
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
 /* Hero - Section */
 #heading h1 {
         font-weight: 100;
@@ -24,4 +46,16 @@ body {
 
 a {
     text-decoration: none;
+}
+
+/* Others */
+.navbar.scrolled {
+    background-color: #dec0de;
+    transition: background-color 500ms;
+}
+
+@media (max-width: 1200px) {
+    .navbar {
+        background-color: #dec0de;
+    }
 }
