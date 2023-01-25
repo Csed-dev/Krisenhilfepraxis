@@ -4,7 +4,6 @@ body {
     font-weight: 100;
     font-size: 1rem;
     font-family: "Nunito", sans-serif;
-    margin: 0;
 }
 
 /* Navigationbar */
@@ -24,24 +23,6 @@ body {
 #mainNavbar .navbar-brand {
     color: #EA1C2C;
     font-size: 1.5rem;
-}
-
-/* Hero - Section */
-#heading h1 {
-        font-weight: 100;
-        font-size: 4rem;
-}
-
-#krisen {
-    color: #EA1C2C;
-}
-
-#hilfe {
-    color: orange;
-}
-
-#praxis {
-    color: green;
 }
 
 a {
