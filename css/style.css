@@ -26,7 +26,8 @@ body {
 }
 
 .blurb p,
-blockquote p {
+blockquote p,
+.pokoj {
     /* color: #f498b8; */
     color: #bb6c87;
     font-weight: 100;
