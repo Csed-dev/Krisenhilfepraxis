@@ -24,10 +24,9 @@ body {
     font-weight: 100;
     font-size: 2.5rem;
 }
-
+.pokoj,
 .blurb p,
-blockquote p,
-.pokoj {
+blockquote p {
     /* color: #f498b8; */
     color: #bb6c87;
     font-weight: 100;
